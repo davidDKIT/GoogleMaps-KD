@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Styled Map Selection</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <script src="../JavaScript/main.js"></script>
+    <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Birmingham City CommonWealth Games!</h1>
+    </header>
+    <div>
+        <button><i class=material-icons onclick=calculateRoute("DRIVING")>shopping_basket</i></button>
+        <button><i class=material-icons onclick=calculateRoute("TRANSIT")>restaurant</i></button>
+        <button><i class=material-icons onclick=calculateRoute("BICYCLING")>directions_bus_filled</i></button>
+        <button><i class=material-icons onclick=calculateRoute("WALKING")>coffee</i></button>
+    </div>
+    <div id="style-selector-control" class="map-control">
+        <select id="style-selector" class="selector-control">
+        <option value="default">Default</option>
+        <option value="night">Night mode</option>
+        <option value="hiding">Hide features</option>
+    </select>
+    </div>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQRTMuRO4K1AyH9fFr6zH7Kd2qSwz3Wuk&libraries&callback=initMap" async></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+{
+    "places": [{
+            "location_name": "BIRMINGHAM 2022 COMMONWEALTH GAMES STORE",
+            "longitude": 52.48015742355348,
+            "latitude": -1.8945991685795955,
+            "address": {
+                "city": "Birmingham",
+                "website": "https://www.birmingham2022.com/",
+                "state": "UK",
+                "street_address": "146-148 New St, Birmingham B2 4NY, United Kingdomt"
+            }
+        },
+        {
+            "location_name": "Alexander Stadium",
+            "longitude": 52.48015742355348,
+            "latitude": -1.8945991685795955,
+            "address": {
+                "city": "Birmingham",
+                "zip": "B42 2LR",
+                "website": "https://www.birmingham2022.com/",
+                "state": "UK",
+                "street_address": "Walsall Road, Perry Barr, UK"
+            }
+        },
+        {
+            "location_name": "Utilita Area Birmingham",
+            "longitude": 52.48008557633122,
+            "latitude": -1.9139679332204014,
+            "address": {
+                "city": "Birmingham",
+                "zip": " B12AA",
+                "website": "https://www.birmingham2022.com/",
+                "state": "UK",
+                "street_address": "King Edwards Road, Birmingham, B1 2AA"
+            }
+        }
+    ]
+}
